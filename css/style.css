@@ -9,3 +9,16 @@
   color: #fff;
   text-align: center;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #343a40;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+    border-radius: 50px;
+}
