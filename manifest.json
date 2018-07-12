@@ -3,14 +3,20 @@
   "name": "Ashish kumar Bhoi",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "./img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./img/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/index.html",
-  "background_color": "#343a40",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "background_color": "#ffff",
   "display": "standalone",
-  "scope": "/",
+  "scope": "./",
   "theme_color": "#343a40"
 }
