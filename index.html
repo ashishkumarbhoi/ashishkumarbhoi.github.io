@@ -177,14 +177,12 @@
     <script src="js/jquery-slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
-  </body>
-  <script src="js/sw.js">
-    </script>
-    
+    <script src="js/sw.js"></script>
     <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker
-                .register('js/sw.js')
-        }
+      if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+          .register('js/sw.js')
+      }
     </script>
+  </body>
 </html>
