@@ -178,4 +178,16 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>
+  <script src="js/sw.js">
+    </script>
+    
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('js/sw.js')
+                .then(function() {
+                    console.log("Service-Worker-Registered");
+                });
+        }
+    </script>
 </html>
