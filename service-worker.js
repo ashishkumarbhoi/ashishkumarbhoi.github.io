@@ -32,7 +32,9 @@ const PRECACHE_URLS = [
   'css/all.css',
   'css/bootstrap.css',
   'css/style.css',
-  'manifest.json'
+  'manifest.json',
+  'webfonts/fa-solid-900.woff2',
+  'webfonts/fa-brands-400.woff2'
 
 ];
 
