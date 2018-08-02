@@ -19,23 +19,24 @@ const RUNTIME = 'runtime';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
-  '.',
+  //html pages
   'index.html',
   'about.html',
   'contact.html',
   'projects.html',
-  'js/bootstrap.js',
-  'js/all.js',
-  'service-worker.js',
-  'js/popper.min.js',
-  'js/jquery-slim.min.js',
-  'css/all.css',
-  'css/bootstrap.css',
-  'css/style.css',
-  'manifest.json',
-  'webfonts/fa-solid-900.woff2',
-  'webfonts/fa-brands-400.woff2'
-
+  //icons
+  'img/icon-512.png',
+  'img/icon-192.png',
+  'favicon.ico',
+  //all added css and javascript files
+  'bootstrap/dist/css/bootstrap.css',
+  '@fortawesome/fontawesome-free/css/all.css',
+  'style.css',
+  '@fortawesome/fontawesome-free/js/all.js',
+  'jquery/dist/jquery.js',
+  'popper.js/dist/umd/popper.js',
+  'bootstrap/dist/js/bootstrap.js',
+  'service-worker.js'
 ];
 
 // The install handler takes care of precaching the resources we always need.

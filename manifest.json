@@ -1,21 +1,21 @@
 {
-  "short_name": "Ashish",
-  "name": "Ashish kumar Bhoi",
-  "icons": [
-    {
-      "src": "./img/icon-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "./img/icon-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "orientation": "portrait",
-  "start_url": "index.html",
-  "background_color": "#696969",
-  "display": "standalone",
-  "theme_color": "#696969"
-}
+    "short_name": "Ashish",
+    "name": "Ashish Kumar Bhoi",
+    "icons": [
+      {
+        "src": "./img/icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./img/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "orientation": "portrait",
+    "start_url": "index.html",
+    "background_color": "#696969",
+    "display": "standalone",
+    "theme_color": "#696969"
+  }

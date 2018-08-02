@@ -1,5 +1,6 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
+<!-- Html with English Language -->
 
 <head>
   <!-- Required meta tags -->
@@ -10,13 +11,14 @@
   <meta name="author" content="Ashish Kumar Bhoi">
   <meta name="keywords" content="ashish bootstrap html5 css3 javascript">
   <meta name="description" content="A static web page to show all my github work">
+  <!-- manifest file to be added -->
   <link rel="manifest" href="manifest.json" />
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/all.css">
-  <link rel="stylesheet" href="css/style.css">
-
-  <title>Ashish Kumar Bhoi | Web Devloper</title>
+  <!-- Bootstrap Fontawesome and costom css files -->
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <!--Title And icon -->
+  <title>Titler</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -193,13 +195,15 @@
     <hr> Ashish Kumar Bhoi &copy; 2018
     <hr>
   </footer>
+
   <!-- Optional JavaScript -->
-  <script defer src="js/all.js"></script>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/jquery-slim.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap, then Fontawesome JS -->
+  <script src="jquery/dist/jquery.js"></script>
+  <script src="popper.js/dist/umd/popper.js"></script>
+  <script src="bootstrap/dist/js/bootstrap.js"></script>
+  <script defer src="@fortawesome/fontawesome-free/js/all.js"></script>
 </body>
+<!-- Service worker JS Scripts -->
 <script src="service-worker.js"></script>
 <script>
   if ('serviceWorker' in navigator) {
