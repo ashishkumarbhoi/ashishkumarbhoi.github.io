@@ -36,7 +36,20 @@ const PRECACHE_URLS = [
   'jquery/dist/jquery.js',
   'popper.js/dist/umd/popper.js',
   'bootstrap/dist/js/bootstrap.js',
-  'service-worker.js'
+  'service-worker.js',
+  // images and icons
+  'favicon.ico',
+  'img/colour1.png',
+  'img/colour2.png',
+  'img/colour3.png',
+  'img/icon-192.png',
+  'img/icon-512.png',
+  'img/profile_pic.png',
+  'img/project1.png',
+  'img/project2.png',
+  'img/project3.png',
+  'img/project4.png'
+  
 ];
 
 // The install handler takes care of precaching the resources we always need.
