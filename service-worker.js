@@ -19,6 +19,8 @@ const RUNTIME = 'runtime';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
+  //root page
+  '/',
   //html pages
   'index.html',
   'about.html',
@@ -37,15 +39,9 @@ const PRECACHE_URLS = [
   'popper.js/dist/umd/popper.js',
   'bootstrap/dist/js/bootstrap.js',
   'service-worker.js',
-  // images
-  'img/colour1.png',
-  'img/colour2.png',
-  'img/colour3.png',
-  'img/profile_pic.png',
-  'img/project1.png',
-  'img/project2.png',
-  'img/project3.png',
-  'img/project4.png'
+  //Fonts
+  '@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2',
+  '@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2'
   
 ];
 
