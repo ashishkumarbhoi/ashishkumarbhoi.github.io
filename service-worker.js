@@ -30,18 +30,8 @@ const PRECACHE_URLS = [
   'img/icon-512.png',
   'img/icon-192.png',
   'favicon.ico',
-  //all added css and javascript files
-  'bootstrap/dist/css/bootstrap.css',
-  '@fortawesome/fontawesome-free/css/all.css',
-  'style.css',
-  '@fortawesome/fontawesome-free/js/all.js',
-  'jquery/dist/jquery.js',
-  'popper.js/dist/umd/popper.js',
-  'bootstrap/dist/js/bootstrap.js',
-  'service-worker.js',
-  //Fonts
-  '@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2',
-  '@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2'
+  //all costom css and javascript files
+  'style.css'
   
 ];
 
